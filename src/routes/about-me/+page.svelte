@@ -17,12 +17,7 @@
 			<!-- Add your photo next to the intro if desired -->
 			<div class="prose">
 				<p>
-					Add your bio and introduction here. This page was converted from your original
-					About Me HTML into a Svelte page.
-				</p>
-				<p>
-					You can replace these paragraphs with your own story, skills, and what you’d like
-					visitors to know about you.
+					Hello! My name is Daniel Miretsky and I am a student at Wentworth Institute of Technology in Boston, MA, majoring in Computer Science. Here you will find some of my favorite and best coding projects and open source contributions that I have worked on over the past few years as I familiarized myself with the world of computer science. You can also find my resume and contact information below.
 				</p>
 			</div>
 		</section>
