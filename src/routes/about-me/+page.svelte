@@ -42,7 +42,7 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		background-image: url('https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=1200');
+		background-image: url('/code.jpg');
 		background-size: cover;
 		background-position: center;
 	}
