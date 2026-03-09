@@ -1,11 +1,22 @@
-import adapter from '@sveltejs/adapter-static';
+import adapter from '@sveltejs/adapter-cloudflare';
 
-export default {
-  kit: {
-    adapter: adapter({
-      pages: 'build',
-      assets: 'build',
-      fallback: 'index.html'
-    })
-  }
+/** @type {import('@sveltejs/kit').Config} */
+const config = {
+	kit: {
+		adapter: adapter({
+			config: undefined,
+			platformProxy: {
+				configPath: undefined,
+				environment: undefined,
+				persist: undefined
+			},
+			fallback: 'plaintext',
+			routes: {
+				include: ['/*'],
+				exclude: ['<all>']
+			}
+		})
+	}
 };
+
+export default config;
