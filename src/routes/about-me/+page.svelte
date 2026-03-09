@@ -15,7 +15,7 @@
 	<main class="content">
 		<section class="intro">
 			<!-- Add your photo next to the intro if desired -->
-			<div class="prose">
+			<div class="prose montserrat-regular">
 				<p>
 					Hello! My name is Daniel Miretsky and I am a student at Wentworth Institute of Technology in Boston, MA, majoring in Computer Science. Here you will find some of my favorite and best coding projects and open source contributions that I have worked on over the past few years as I familiarized myself with the world of computer science. You can also find my resume and contact information below.
 				</p>
@@ -30,6 +30,40 @@
 		background-color: #fafafa;
 		color: #212121;
 	}
+
+	.roboto-flex {
+        font-family: "Roboto Flex", sans-serif;
+        color: var(--color-primary);
+        font-optical-sizing: 144;
+        font-weight: 900;
+        font-style: normal;
+        font-variation-settings:
+            "slnt" 0,
+            "wdth" 129,
+            "GRAD" 0,
+            "XOPQ" 140,
+            "XTRA" 468,
+            "YOPQ" 51,
+            "YTAS" 750,
+            "YTDE" -203,
+            "YTFI" 738,
+            "YTLC" 514,
+            "YTUC" 712;
+    }
+
+	
+	.montserrat-regular {
+		font-family: "Montserrat", sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 400;
+		font-style: normal;
+	}
+
+    .russo-one-regular {
+        font-family: "Russo One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
 
 	.hero {
 		position: relative;
