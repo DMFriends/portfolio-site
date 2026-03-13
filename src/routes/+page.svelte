@@ -3,6 +3,10 @@
 	<meta name="description" content="About Daniel Miretsky" />
 </svelte:head>
 
+<script lang="ts">
+  import avatar from '$lib/assets/avatar.png';
+</script>
+
 <main class="home-layout">
 	<section class="flex-column hero">
 		<div class="hero-inner">
@@ -10,7 +14,7 @@
 				<p class="eyebrow">About Me</p>
 				<div class="hero-name-row">
 					<div class="avatar-placeholder">
-						<img src="/src/lib/assets/avatar.png" class="avatar-image" alt="Daniel Miretsky" />
+						<img src={avatar} class="avatar-image" alt="Daniel Miretsky" />
 					</div>
 					<h1>Daniel Miretsky</h1>
 				</div>
