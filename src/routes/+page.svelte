@@ -8,15 +8,17 @@
 		<div class="hero-inner">
 			<div class="hero-text montserrat-regular">
 				<p class="eyebrow">About Me</p>
-				<h1>Daniel Miretsky</h1>
+				<div class="hero-name-row">
+					<div class="avatar-placeholder">
+						<img src="/src/lib/assets/avatar.png" class="avatar-image" alt="Daniel Miretsky" />
+					</div>
+					<h1>Daniel Miretsky</h1>
+				</div>
 				<div class="prose montserrat-regular">
                     <p>
                         I am a student at <a href="https://www.wit.edu" target="_blank" class="montserrat-regular">Wentworth Institute of Technology</a> in Boston, MA, majoring in Computer Science. Here you will find some of my favorite and best coding projects and open source contributions that I have worked on over the past few years as I familiarized myself with the world of computer science. You can also find my resume and contact information below.
                     </p>
                 </div>
-				<!-- <div class="hero-actions">
-					<a href="/portfolio" class="button primary russo-one-regular">View portfolio</a>
-				</div> -->
 			</div>
 		</div>
 	</section>
@@ -24,8 +26,7 @@
 	<section class="bottom-half" aria-label="Quick links">
 		<div class="bottom-inner">
 			<div class="quick-buttons">
-				<a class="quick-button russo-one-regular" href="/portfolio#projects">Coding Projects</a>
-				<a class="quick-button russo-one-regular" href="/portfolio#projects">Open Source Contributions</a>
+				<a class="quick-button russo-one-regular" href="/portfolio">View Portfolio</a>
 				<a class="flex flex-column justify-center items-center quick-button russo-one-regular" href="https://docs.google.com/document/d/1bhVwWsPEovf2HFZMU3aLZC3aPFxYEFkTHlsXKnVAU3c/edit?tab=t.0" target="_blank">Resume</a>
 			</div>
 
@@ -52,6 +53,10 @@
 		</div>
 	</section>
 </main>
+
+<footer class="footer">
+  <span>© {new Date().getFullYear()} Daniel Miretsky. All rights reserved.</span>
+</footer>
 
 <style>
 	.home-layout {
@@ -119,14 +124,6 @@
 		background-position: center;
 	}
 
-	.hero-overlay {
-		position: absolute;
-		inset: 0;
-		background: radial-gradient(circle at top, rgba(56, 189, 248, 0.18), transparent 55%);
-		mix-blend-mode: screen;
-		pointer-events: none;
-	}
-
 	.hero-inner {
 		position: relative;
 		z-index: 1;
@@ -150,21 +147,36 @@
 		color: #9ca3af;
 	}
 
-	.subtitle {
-		color: #cbd5f5;
-		margin: 0 0 1.5rem;
-		max-width: 40rem;
+	.hero-name-row {
+		display: inline-flex;
+		align-items: center;
+		gap: 1rem;
 	}
 
-	.hero-actions {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 0.75rem;
-		margin-top: 1.5rem;
+	.avatar-placeholder {
+		width: 3.5rem;
+		height: 3.5rem;
+		border-radius: 999px;
+		overflow: hidden;
+		border: 2px solid rgba(148, 163, 184, 0.6);
+		box-shadow: 0 10px 25px rgba(15, 23, 42, 0.8);
+	}
+
+	.avatar-image {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		display: block;
+	}
+
+	@media (max-width: 640px) {
+		.hero-name-row {
+			gap: 0.75rem;
+		}
 	}
 
 	.bottom-half {
-		padding: 3.5rem 1.5rem 4rem;
+		padding: 3.5rem 1.5rem 8rem;
 		color: #0f172a;
 		background: #ffffff;
 	}
@@ -203,11 +215,6 @@
 		transform: translateY(-1px);
 		filter: brightness(1.03);
 		box-shadow: 0 14px 28px rgba(2, 6, 23, 0.22);
-	}
-
-	.quick-button[aria-disabled="true"] {
-		opacity: 0.7;
-		pointer-events: none;
 	}
 
 	.quick-buttons a:nth-child(3) {
@@ -250,62 +257,6 @@
 		fill: currentColor;
 	}
 
-	.button {
-		display: inline-flex;
-		align-items: center;
-		justify-content: center;
-		padding: 0.7rem 1.4rem;
-		border-radius: 999px;
-		font-size: 0.9rem;
-		font-weight: 500;
-		border: 1px solid transparent;
-		cursor: pointer;
-		text-decoration: none;
-		transition: background 0.2s ease, transform 0.1s ease, box-shadow 0.2s ease, border-color 0.2s ease,
-			color 0.2s ease;
-	}
-
-	.button.primary {
-		background: linear-gradient(135deg, #38bdf8, #22c55e);
-		color: #020617;
-		box-shadow: 0 18px 40px rgba(56, 189, 248, 0.35);
-	}
-
-	.button.primary:hover {
-		transform: translateY(-1px);
-		box-shadow: 0 22px 50px rgba(56, 189, 248, 0.45);
-	}
-
-	.button.ghost {
-		background: rgba(15, 23, 42, 0.7);
-		border-color: rgba(148, 163, 184, 0.4);
-		color: #e5e7eb;
-	}
-
-	.button.ghost:hover {
-		background: rgba(30, 64, 175, 0.5);
-		border-color: rgba(129, 140, 248, 0.6);
-	}
-
-	.section {
-		padding: 2.5rem 1.5rem 3rem;
-	}
-
-	.section-header {
-		max-width: 720px;
-		margin: 0 auto 1.25rem;
-	}
-
-	.section-header h2 {
-		margin: 0 0 0.5rem;
-		font-size: 1.4rem;
-	}
-
-	.section-body {
-		max-width: 720px;
-		margin: 0 auto;
-	}
-
 	.prose {
 		line-height: 1.7;
 	}
@@ -314,14 +265,20 @@
 		margin: 0;
 	}
 
+	.footer {
+		padding: 1rem;
+		margin-top: auto;
+		text-align: center;
+		font-size: 0.8rem;
+		color: #ffffff;
+		font-family: "Montserrat", sans-serif;
+		background: #020617;
+	}
+
 	@media (max-width: 640px) {
 		.hero {
 			padding-top: 3rem;
 			padding-bottom: 2.5rem;
-		}
-
-		.section {
-			padding-inline: 1.25rem;
 		}
 
 		.quick-buttons {
