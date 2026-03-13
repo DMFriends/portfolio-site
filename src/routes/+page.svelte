@@ -34,7 +34,7 @@
 				<a class="flex flex-column justify-center items-center quick-button russo-one-regular" href="https://docs.google.com/document/d/1bhVwWsPEovf2HFZMU3aLZC3aPFxYEFkTHlsXKnVAU3c/edit?tab=t.0" target="_blank">Resume</a>
 			</div>
 
-			<nav class="social" aria-label="Social links">
+			<nav class="flex flex-row justify-center items-center social" aria-label="Social links">
 				<a class="social-link" href="https://www.linkedin.com/in/danielmiretsky/" target="_blank" aria-label="LinkedIn">
 					<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
 						<path
@@ -57,11 +57,10 @@
 		</div>
 	</section>
 
-	<section class="footer">
-		<div class="footer-text">
-			<span>© {new Date().getFullYear()} Daniel Miretsky. All rights reserved.</span>
-		</div>
-	</section>
+	<div class="footer">
+		<p>© {new Date().getFullYear()} Daniel Miretsky. All rights reserved.</p>
+	</div>
+	
 </main>
 
 
@@ -184,8 +183,7 @@
 	}
 
 	.bottom-half {
-		padding: 3.5rem 1.5rem 8.5rem;
-		/* margin-bottom: -25rem; */
+		padding: 2.5rem 1.5rem 8rem;
 		color: #0f172a;
 		background: #ffffff;
 	}
@@ -235,6 +233,7 @@
 	}
 
 	.social {
+		padding-top: 2rem;
 		display: flex;
 		flex-wrap: wrap;
 		gap: 2.25rem;
@@ -276,19 +275,19 @@
 	}
 
 	.footer {
-		padding: 1.5rem;
-		/* margin-top: auto; */
+		padding: 0.5rem;
+		margin-top: auto;
 		text-align: center;
 		font-size: 0.8rem;
 		color: #ffffff;
 		font-family: "Montserrat", sans-serif;
-		background: #020617;
 	}
 
-	.footer-text {
+	/* .footer-text {
 		max-width: 720px;
 		margin: 0 auto;
-	}
+		padding-top: 1.5rem;
+	} */
 
 	@media (max-width: 640px) {
 		.hero {
