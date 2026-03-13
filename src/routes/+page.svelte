@@ -52,11 +52,15 @@
 			</nav>
 		</div>
 	</section>
+
+	<section class="footer">
+		<div class="footer-text">
+			<span>© {new Date().getFullYear()} Daniel Miretsky. All rights reserved.</span>
+		</div>
+	</section>
 </main>
 
-<footer class="footer">
-  <span>© {new Date().getFullYear()} Daniel Miretsky. All rights reserved.</span>
-</footer>
+
 
 <style>
 	.home-layout {
@@ -176,7 +180,8 @@
 	}
 
 	.bottom-half {
-		padding: 3.5rem 1.5rem 8rem;
+		padding: 3.5rem 1.5rem 8.5rem;
+		/* margin-bottom: -25rem; */
 		color: #0f172a;
 		background: #ffffff;
 	}
@@ -184,6 +189,7 @@
 	.bottom-inner {
 		max-width: 1120px;
 		margin: 0 auto;
+		margin-bottom: -5rem;
 		display: grid;
 		gap: 2.5rem;
 		justify-items: center;
@@ -266,13 +272,18 @@
 	}
 
 	.footer {
-		padding: 1rem;
-		margin-top: auto;
+		padding: 1.5rem;
+		/* margin-top: auto; */
 		text-align: center;
 		font-size: 0.8rem;
 		color: #ffffff;
 		font-family: "Montserrat", sans-serif;
 		background: #020617;
+	}
+
+	.footer-text {
+		max-width: 720px;
+		margin: 0 auto;
 	}
 
 	@media (max-width: 640px) {
