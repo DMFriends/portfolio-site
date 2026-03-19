@@ -57,22 +57,23 @@
 		</div>
 	</section>
 
-	<div class="footer">
-		<p>© {new Date().getFullYear()} Daniel Miretsky. All rights reserved.</p>
-	</div>
-	
+	<section class="footer-section" aria-label="Footer">	
+		<footer class="footer">
+			<span>© {new Date().getFullYear()} Daniel Miretsky. All rights reserved.</span>
+		</footer>
+	</section>
 </main>
 
 
 
 <style>
 	.home-layout {
-		min-height: 100vh;
-		min-height: 100svh;
+		min-height: auto;
 		display: flex;
 		flex-direction: column;
 		background: #020617;
 		color: #e5e7eb;
+		box-sizing: border-box;
 	}
 
 	:global(body) {
@@ -183,7 +184,7 @@
 	}
 
 	.bottom-half {
-		padding: 2.5rem 1.5rem 8rem;
+		padding: 2.5rem 1.5rem 3rem;
 		color: #0f172a;
 		background: #ffffff;
 	}
@@ -191,7 +192,6 @@
 	.bottom-inner {
 		max-width: 1120px;
 		margin: 0 auto;
-		margin-bottom: -5rem;
 		display: grid;
 		gap: 2.5rem;
 		justify-items: center;
@@ -275,19 +275,32 @@
 	}
 
 	.footer {
-		padding: 0.5rem;
-		margin-top: auto;
-		text-align: center;
+		position: fixed;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		z-index: 10;
+		height: 3.5rem;
+		padding: 0 1.5rem;
+		max-height: 5rem;
+		/* max-height: 3.5svh; */
+		overflow: hidden;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-top: 1px solid rgba(31, 41, 55, 0.85);
 		font-size: 0.8rem;
 		color: #ffffff;
 		font-family: "Montserrat", sans-serif;
+		background: #020617;
 	}
 
-	/* .footer-text {
-		max-width: 720px;
-		margin: 0 auto;
-		padding-top: 1.5rem;
-	} */
+	.footer-section {
+		/* Footer is fixed-position; wrapper should take no space */
+		height: 0;
+		padding: 0;
+		margin: 0;
+	}
 
 	@media (max-width: 640px) {
 		.hero {

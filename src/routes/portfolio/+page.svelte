@@ -149,6 +149,7 @@
 <style>
   section {
     width: 100%;
+    box-sizing: border-box;
   }
 
   .hero {
