@@ -7,7 +7,7 @@
   import avatar from '$lib/assets/avatar.png';
 </script>
 
-<main class="home-layout">
+<div class="home-layout">
 	<section class="flex-column hero">
 		<div class="hero-inner">
 			<div class="hero-text montserrat-regular">
@@ -55,20 +55,19 @@
 				</a>
 			</nav>
 		</div>
-	</section>
 
-	<section class="footer-section" aria-label="Footer">	
 		<footer class="footer">
 			<span>© {new Date().getFullYear()} Daniel Miretsky. All rights reserved.</span>
 		</footer>
 	</section>
-</main>
+</div>
 
 
 
 <style>
 	.home-layout {
-		min-height: auto;
+		min-height: 100svh;
+		min-height: 100vh;
 		display: flex;
 		flex-direction: column;
 		background: #020617;
@@ -184,17 +183,35 @@
 	}
 
 	.bottom-half {
-		padding: 2.5rem 1.5rem 3rem;
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+		min-height: 0;
+		padding: 2.5rem 1.5rem 0;
 		color: #0f172a;
 		background: #ffffff;
 	}
 
 	.bottom-inner {
+		flex: 1;
 		max-width: 1120px;
+		width: 100%;
 		margin: 0 auto;
 		display: grid;
 		gap: 2.5rem;
 		justify-items: center;
+		align-content: start;
+	}
+
+	.footer {
+		margin-top: auto;
+		padding: 1.25rem 1.5rem 1.5rem;
+		text-align: center;
+		font-size: 0.8rem;
+		color: #0f172a;
+		font-family: "Montserrat", sans-serif;
+		border-top: 1px solid rgba(15, 23, 42, 0.12);
+		background: #ffffff;
 	}
 
 	.quick-buttons {
@@ -202,6 +219,7 @@
 		display: grid;
 		grid-template-columns: repeat(2, minmax(0, 1fr));
 		gap: 1.25rem;
+		overflow: hidden;
 	}
 
 	.quick-button {
@@ -217,12 +235,16 @@
 		box-shadow: 0 10px 20px rgba(2, 6, 23, 0.18);
 		border: 1px solid rgba(2, 6, 23, 0.15);
 		transition: transform 0.12s ease, box-shadow 0.2s ease, filter 0.2s ease;
+		overflow: hidden;
+		will-change: transform, background-color;
+		transform: translateY(0);
+		background-color: rgba(255, 255, 255, 0.04);
 	}
 
 	.quick-button:hover {
 		transform: translateY(-1px);
-		filter: brightness(1.03);
-		box-shadow: 0 14px 28px rgba(2, 6, 23, 0.22);
+		background-color: rgba(255, 255, 255, 0.04);
+		will-change: transform, background-color;
 	}
 
 	.quick-buttons a:nth-child(3) {
@@ -271,34 +293,6 @@
 	}
 
 	.prose p {
-		margin: 0;
-	}
-
-	.footer {
-		position: fixed;
-		left: 0;
-		right: 0;
-		bottom: 0;
-		z-index: 10;
-		height: 3.5rem;
-		padding: 0 1.5rem;
-		max-height: 5rem;
-		/* max-height: 3.5svh; */
-		overflow: hidden;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		border-top: 1px solid rgba(31, 41, 55, 0.85);
-		font-size: 0.8rem;
-		color: #ffffff;
-		font-family: "Montserrat", sans-serif;
-		background: #020617;
-	}
-
-	.footer-section {
-		/* Footer is fixed-position; wrapper should take no space */
-		height: 0;
-		padding: 0;
 		margin: 0;
 	}
 

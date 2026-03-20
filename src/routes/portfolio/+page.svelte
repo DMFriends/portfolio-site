@@ -23,48 +23,119 @@
   <div class="grid">
     <article class="card project">
       <div class="card-tag">Featured</div>
-      <h3>Project One</h3>
+      <h3>Durak</h3>
       <p class="card-subtitle">
-        A brief description of the project, what you built, and why it’s interesting.
+        A popular Russian card game played with a 36-card deck (6-Ace). Players can either attack or defend.
       </p>
       <ul class="pill-list">
-        <li>SvelteKit</li>
-        <li>TypeScript</li>
-        <li>Tailwind CSS</li>
+        <li>Java</li>
       </ul>
       <div class="card-footer">
-        <a href="#" class="link">Live site</a>
-        <a href="#" class="link">Source code</a>
+        <a href="https://github.com/DMFriends/portfolio/tree/main/Java/Durak" class="link">Source code</a>
       </div>
     </article>
 
     <article class="card project">
-      <h3>Project Two</h3>
+      <h3>Wordle</h3>
       <p class="card-subtitle">
-        Focus on the problem you solved, your role, and measurable impact where possible.
+        A word guessing game where you have to guess a word in 6 tries.
       </p>
       <ul class="pill-list">
-        <li>Node.js</li>
-        <li>REST APIs</li>
-        <li>PostgreSQL</li>
+        <li>Java</li>
+        <li>JavaFX</li>
       </ul>
       <div class="card-footer">
-        <a href="#" class="link">Case study</a>
+        <a href="https://github.com/DMFriends/portfolio/tree/main/Java/Wordle" class="link">Source code</a>
       </div>
     </article>
 
     <article class="card project">
-      <h3>Project Three</h3>
+      <h3>Mastermind</h3>
       <p class="card-subtitle">
-        Include personal experiments, open source work, or learning projects you’re proud of.
+        A code-breaking game where you have to guess the code in 10 tries.
       </p>
       <ul class="pill-list">
-        <li>Design systems</li>
-        <li>Storybook</li>
-        <li>Testing</li>
+        <li>Java</li>
       </ul>
       <div class="card-footer">
-        <a href="#" class="link">View details</a>
+        <a href="https://github.com/DMFriends/portfolio/tree/main/Java/Mastermind" class="link">Source code</a>
+      </div>
+    </article>
+
+    <article class="card project">
+      <h3>Mastermind</h3>
+      <p class="card-subtitle">
+        A code-breaking game where you have to guess the code in 10 tries.
+      </p>
+      <ul class="pill-list">
+        <li>Java</li>
+      </ul>
+      <div class="card-footer">
+        <a href="https://github.com/DMFriends/portfolio/tree/main/Java/Mastermind" class="link">Source code</a>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section id="aoc" class="section">
+  <div class="section-header">
+    <h2>Advent of Code</h2>
+    <p>
+      A collection of my solutions to Advent of Code puzzles that I have solved in Java.
+    </p>
+  </div>
+
+  <div class="grid">
+    <article class="card project">
+      <h3>2025</h3>
+      <p class="card-subtitle">
+        My solutions to the 2025 Advent of Code puzzles.
+      </p>
+      <ul class="pill-list">
+        <li>Java</li>
+      </ul>
+      <div class="card-footer">
+        <a href="https://github.com/DMFriends/portfolio/tree/main/Java/Durak" class="link">Source code</a>
+      </div>
+    </article>
+
+    <article class="card project">
+      <h3>Wordle</h3>
+      <p class="card-subtitle">
+        A word guessing game where you have to guess a word in 6 tries.
+      </p>
+      <ul class="pill-list">
+        <li>Java</li>
+        <li>JavaFX</li>
+      </ul>
+      <div class="card-footer">
+        <a href="https://github.com/DMFriends/portfolio/tree/main/Java/Wordle" class="link">Source code</a>
+      </div>
+    </article>
+
+    <article class="card project">
+      <h3>Mastermind</h3>
+      <p class="card-subtitle">
+        A code-breaking game where you have to guess the code in 10 tries.
+      </p>
+      <ul class="pill-list">
+        <li>Java</li>
+      </ul>
+      <div class="card-footer">
+        <a href="https://github.com/DMFriends/portfolio/tree/main/Java/Mastermind" class="link">Source code</a>
+      </div>
+    </article>
+
+    <article class="card project">
+      <h3>Mastermind</h3>
+      <p class="card-subtitle">
+        A code-breaking game where you have to guess the code in 10 tries.
+      </p>
+      <ul class="pill-list">
+        <li>Java</li>
+      </ul>
+      <div class="card-footer">
+        <a href="https://github.com/DMFriends/portfolio/tree/main/Java/Mastermind" class="link">Source code</a>
       </div>
     </article>
   </div>
