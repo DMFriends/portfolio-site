@@ -251,7 +251,6 @@
     padding: 2.5rem 1.5rem;
   }
 
-  /* Tighten space under hero “Portfolio” label → first heading */
   #projects.section {
     padding-top: 1.5rem;
   }
