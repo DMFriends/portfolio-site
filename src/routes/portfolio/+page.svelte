@@ -16,7 +16,7 @@
   <div class="section-header">
     <h2>My Coding Projects</h2>
     <p>
-      A curated selection of my coding projects. You can find all my projects on my <a href="https://github.com/DMFriends/portfolio" class="link">GitHub</a>.
+      A curated selection of my coding projects. You can find all my projects on my <a href="https://github.com/DMFriends/portfolio" target="_blank" class="link">GitHub</a>.
     </p>
   </div>
 
@@ -30,7 +30,7 @@
         <li>Java</li>
       </ul>
       <div class="card-footer">
-        <a href="https://github.com/DMFriends/portfolio/tree/main/Java/Durak" class="link">Source code</a>
+        <a href="https://github.com/DMFriends/portfolio/tree/main/Java/Durak" target="_blank" class="link">Source code</a>
       </div>
     </article>
 
@@ -44,7 +44,7 @@
         <li>JavaFX</li>
       </ul>
       <div class="card-footer">
-        <a href="https://github.com/DMFriends/portfolio/tree/main/Java/Wordle" class="link">Source code</a>
+        <a href="https://github.com/DMFriends/portfolio/tree/main/Java/Wordle" target="_blank" class="link">Source code</a>
       </div>
     </article>
 
@@ -57,7 +57,7 @@
         <li>Java</li>
       </ul>
       <div class="card-footer">
-        <a href="https://github.com/DMFriends/portfolio/tree/main/Java/Mastermind" class="link">Source code</a>
+        <a href="https://github.com/DMFriends/portfolio/tree/main/Java/Mastermind" target="_blank" class="link">Source code</a>
       </div>
     </article>
 
@@ -70,20 +70,20 @@
         <li>Java</li>
       </ul>
       <div class="card-footer">
-        <a href="https://github.com/DMFriends/portfolio/tree/main/Java/Battleship" class="link">Source code</a>
+        <a href="https://github.com/DMFriends/portfolio/tree/main/Java/Battleship" target="_blank" class="link">Source code</a>
       </div>
     </article>
 
     <article class="card project">
       <h3>JUno</h3>
       <p class="card-subtitle">
-        Java-based Uno game for mine and <a href="https://github.com/Cattn" class="link">@Cattn</a>'s CS2 Project at Wentworth Institute of Technology.
+        Java-based Uno game for mine and <a href="https://github.com/Cattn" target="_blank" class="link">@Cattn</a>'s CS2 Project at Wentworth Institute of Technology.
       </p>
       <ul class="pill-list">
         <li>Java</li>
       </ul>
       <div class="card-footer">
-        <a href="https://github.com/Cattn/JUno" class="link">Source code</a>
+        <a href="https://github.com/Cattn/JUno" target="_blank" class="link">Source code</a>
       </div>
     </article>
   </div>
@@ -107,7 +107,7 @@
         <li>Java</li>
       </ul>
       <div class="card-footer">
-        <a href="https://github.com/DMFriends/aoc/tree/main/src/main/java/_2025" class="link">Solutions</a>
+        <a href="https://github.com/DMFriends/aoc/tree/main/src/main/java/_2025" target="_blank" class="link">Solutions</a>
       </div>
     </article>
 
@@ -120,7 +120,7 @@
         <li>Java</li>
       </ul>
       <div class="card-footer">
-        <a href="https://github.com/DMFriends/aoc/tree/main/src/main/java/_2023" class="link">Solutions</a>
+        <a href="https://github.com/DMFriends/aoc/tree/main/src/main/java/_2023" target="_blank" class="link">Solutions</a>
       </div>
     </article>
 
@@ -133,7 +133,7 @@
         <li>Java</li>
       </ul>
       <div class="card-footer">
-        <a href="https://github.com/DMFriends/aoc/tree/main/src/main/java/_2022" class="link">Solutions</a>
+        <a href="https://github.com/DMFriends/aoc/tree/main/src/main/java/_2022" target="_blank" class="link">Solutions</a>
       </div>
     </article>
 
@@ -146,7 +146,7 @@
         <li>Java</li>
       </ul>
       <div class="card-footer">
-        <a href="https://github.com/DMFriends/aoc/tree/main/src/main/java/_2021" class="link">Solutions</a>
+        <a href="https://github.com/DMFriends/aoc/tree/main/src/main/java/_2021" target="_blank" class="link">Solutions</a>
       </div>
     </article>
   </div>
@@ -167,12 +167,12 @@
         <li>Python</li>
       </ul>
       <div class="card-footer">
-        <a href="https://github.com/python-discord/sir-lancebot" class="link">Sir Lancebot Source Code</a>
-        <a href="https://discord.gg/python" class="link">Discord Server</a>
+        <a href="https://github.com/python-discord/sir-lancebot" target="_blank" class="link">Sir Lancebot Source Code</a>
+        <a href="https://discord.gg/python" target="_blank" class="link">Discord Server</a>
       </div>
       <div class="card-footer">
-        <a href="https://github.com/python-discord" class="link">PyDis GitHub Organization</a>
-        <a href="https://github.com/python-discord/sir-lancebot/pulls?q=is%3Apr+is%3Amerged+author%3ADMFriends+" class="link">My Contributions</a>
+        <a href="https://github.com/python-discord" target="_blank" class="link">PyDis GitHub Organization</a>
+        <a href="https://github.com/python-discord/sir-lancebot/pulls?q=is%3Apr+is%3Amerged+author%3ADMFriends+" target="_blank" class="link">My Contributions</a>
       </div>
     </article>
   </div>
