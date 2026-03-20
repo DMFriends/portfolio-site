@@ -62,8 +62,6 @@
 	</section>
 </div>
 
-
-
 <style>
 	.home-layout {
 		min-height: 100svh;

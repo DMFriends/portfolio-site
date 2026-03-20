@@ -16,55 +16,137 @@
   <div class="section-header">
     <h2>My Coding Projects</h2>
     <p>
-      A curated selection of my coding projects.
+      A curated selection of my coding projects. You can find all my projects on my <a href="https://github.com/DMFriends/portfolio" class="link">GitHub</a>.
     </p>
   </div>
 
   <div class="grid">
     <article class="card project">
-      <div class="card-tag">Featured</div>
-      <h3>Project One</h3>
+      <h3>Durak</h3>
       <p class="card-subtitle">
-        A brief description of the project, what you built, and why it’s interesting.
+        A popular Russian card game played with a 36-card deck (6-Ace). Players can either attack or defend.
       </p>
       <ul class="pill-list">
-        <li>SvelteKit</li>
-        <li>TypeScript</li>
-        <li>Tailwind CSS</li>
+        <li>Java</li>
       </ul>
       <div class="card-footer">
-        <a href="#" class="link">Live site</a>
-        <a href="#" class="link">Source code</a>
+        <a href="https://github.com/DMFriends/portfolio/tree/main/Java/Durak" class="link">Source code</a>
       </div>
     </article>
 
     <article class="card project">
-      <h3>Project Two</h3>
+      <h3>Wordle</h3>
       <p class="card-subtitle">
-        Focus on the problem you solved, your role, and measurable impact where possible.
+        A word guessing game where you have to guess a word in 6 tries.
       </p>
       <ul class="pill-list">
-        <li>Node.js</li>
-        <li>REST APIs</li>
-        <li>PostgreSQL</li>
+        <li>Java</li>
+        <li>JavaFX</li>
       </ul>
       <div class="card-footer">
-        <a href="#" class="link">Case study</a>
+        <a href="https://github.com/DMFriends/portfolio/tree/main/Java/Wordle" class="link">Source code</a>
       </div>
     </article>
 
     <article class="card project">
-      <h3>Project Three</h3>
+      <h3>Mastermind</h3>
       <p class="card-subtitle">
-        Include personal experiments, open source work, or learning projects you’re proud of.
+        A code-breaking game where you have to guess the code in 10 tries.
       </p>
       <ul class="pill-list">
-        <li>Design systems</li>
-        <li>Storybook</li>
-        <li>Testing</li>
+        <li>Java</li>
       </ul>
       <div class="card-footer">
-        <a href="#" class="link">View details</a>
+        <a href="https://github.com/DMFriends/portfolio/tree/main/Java/Mastermind" class="link">Source code</a>
+      </div>
+    </article>
+
+    <article class="card project">
+      <h3>Battleship</h3>
+      <p class="card-subtitle">
+        A naval battle game where you have to guess the location of the opponent's ships.
+      </p>
+      <ul class="pill-list">
+        <li>Java</li>
+      </ul>
+      <div class="card-footer">
+        <a href="https://github.com/DMFriends/portfolio/tree/main/Java/Battleship" class="link">Source code</a>
+      </div>
+    </article>
+
+    <article class="card project">
+      <h3>JUno</h3>
+      <p class="card-subtitle">
+        Java-based Uno game for mine and <a href="https://github.com/Cattn" class="link">@Cattn</a>'s CS2 Project at Wentworth Institute of Technology.
+      </p>
+      <ul class="pill-list">
+        <li>Java</li>
+      </ul>
+      <div class="card-footer">
+        <a href="https://github.com/Cattn/JUno" class="link">Source code</a>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section id="aoc" class="section">
+  <div class="section-header">
+    <h2>Advent of Code</h2>
+    <p>
+      A collection of my solutions to Advent of Code puzzles that I have solved in Java.
+    </p>
+  </div>
+
+  <div class="grid">
+    <article class="card project">
+      <h3>2025</h3>
+      <p class="card-subtitle">
+        My solutions to the 2025 Advent of Code puzzles.
+      </p>
+      <ul class="pill-list">
+        <li>Java</li>
+      </ul>
+      <div class="card-footer">
+        <a href="https://github.com/DMFriends/aoc/tree/main/src/main/java/_2025" class="link">Solutions</a>
+      </div>
+    </article>
+
+    <article class="card project">
+      <h3>2023</h3>
+      <p class="card-subtitle">
+        My solutions to the 2023 Advent of Code puzzles.
+      </p>
+      <ul class="pill-list">
+        <li>Java</li>
+      </ul>
+      <div class="card-footer">
+        <a href="https://github.com/DMFriends/aoc/tree/main/src/main/java/_2023" class="link">Solutions</a>
+      </div>
+    </article>
+
+    <article class="card project">
+      <h3>2022</h3>
+      <p class="card-subtitle">
+        My solutions to the 2022 Advent of Code puzzles.
+      </p>
+      <ul class="pill-list">
+        <li>Java</li>
+      </ul>
+      <div class="card-footer">
+        <a href="https://github.com/DMFriends/aoc/tree/main/src/main/java/_2022" class="link">Solutions</a>
+      </div>
+    </article>
+
+    <article class="card project">
+      <h3>2021</h3>
+      <p class="card-subtitle">
+        My solutions to the 2021 Advent of Code puzzles.
+      </p>
+      <ul class="pill-list">
+        <li>Java</li>
+      </ul>
+      <div class="card-footer">
+        <a href="https://github.com/DMFriends/aoc/tree/main/src/main/java/_2021" class="link">Solutions</a>
       </div>
     </article>
   </div>
@@ -73,56 +155,24 @@
 <section id="open-source" class="section">
   <div class="section-header">
     <h2>My Open Source Contributions</h2>
-    <p>
-      A curated selection of my open source contributions.
-    </p>
   </div>
 
   <div class="grid">
     <article class="card project">
-      <div class="card-tag">Featured</div>
-      <h3>Project One</h3>
+      <h3>Sir Lancebot</h3>
       <p class="card-subtitle">
-        A brief description of the project, what you built, and why it’s interesting.
+        Over the past few years since the start of the COVID pandemic, I've contributed to an open source project, maintained by Python Discord, called Sir Lancebot, written in Python, as the name "Python Discord" suggests. It is a Discord bot hosted on the Python Discord server, the primary goal of which is to host fun games that can be played on the Discord server (both singleplayer and multiplayer), as well as some small utilities that members of the Discord server use for their convenience.
       </p>
       <ul class="pill-list">
-        <li>SvelteKit</li>
-        <li>TypeScript</li>
-        <li>Tailwind CSS</li>
+        <li>Python</li>
       </ul>
       <div class="card-footer">
-        <a href="#" class="link">Live site</a>
-        <a href="#" class="link">Source code</a>
+        <a href="https://github.com/python-discord/sir-lancebot" class="link">Sir Lancebot Source Code</a>
+        <a href="https://discord.gg/python" class="link">Discord Server</a>
       </div>
-    </article>
-
-    <article class="card project">
-      <h3>Project Two</h3>
-      <p class="card-subtitle">
-        Focus on the problem you solved, your role, and measurable impact where possible.
-      </p>
-      <ul class="pill-list">
-        <li>Node.js</li>
-        <li>REST APIs</li>
-        <li>PostgreSQL</li>
-      </ul>
       <div class="card-footer">
-        <a href="#" class="link">Case study</a>
-      </div>
-    </article>
-
-    <article class="card project">
-      <h3>Project Three</h3>
-      <p class="card-subtitle">
-        Include personal experiments, open source work, or learning projects you’re proud of.
-      </p>
-      <ul class="pill-list">
-        <li>Design systems</li>
-        <li>Storybook</li>
-        <li>Testing</li>
-      </ul>
-      <div class="card-footer">
-        <a href="#" class="link">View details</a>
+        <a href="https://github.com/python-discord" class="link">PyDis GitHub Organization</a>
+        <a href="https://github.com/python-discord/sir-lancebot/pulls?q=is%3Apr+is%3Amerged+author%3ADMFriends+" class="link">My Contributions</a>
       </div>
     </article>
   </div>
@@ -132,12 +182,14 @@
   <div class="skills-container">
     <h3>Skills</h3>
     <ul class="pill-list">
-      <li>JavaScript / TypeScript</li>
+      <li>Java</li>
+      <li>Python</li>
+      <li>C#</li>
       <li>Svelte / SvelteKit</li>
-      <li>React</li>
-      <li>Node.js</li>
-      <li>UX & accessibility</li>
-      <li>Testing</li>
+      <li>SQL</li>
+      <li>HTML / CSS</li>
+      <li>Git</li>
+      <li>GitHub</li>
     </ul>
   </div>
 </section>
@@ -166,6 +218,7 @@
   }
 
   .eyebrow {
+    margin: 0;
     letter-spacing: 0.13em;
     text-transform: uppercase;
     font-size: 0.75rem;
@@ -198,6 +251,11 @@
     padding: 2.5rem 1.5rem;
   }
 
+  /* Tighten space under hero “Portfolio” label → first heading */
+  #projects.section {
+    padding-top: 1.5rem;
+  }
+
   .section-alt {
     background: radial-gradient(circle at top, rgba(15, 23, 42, 0.9), rgba(15, 23, 42, 0.3));
   }
@@ -215,7 +273,7 @@
   .section-header p {
     margin: 0;
     color: #9ca3af;
-    max-width: 32rem;
+    /* max-width: 32rem; */
   }
 
   .grid {
@@ -235,20 +293,6 @@
     display: flex;
     flex-direction: column;
     gap: 0.7rem;
-  }
-
-  .card-tag {
-    display: inline-flex;
-    align-items: center;
-    padding: 0.2rem 0.65rem;
-    border-radius: 999px;
-    font-size: 0.7rem;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    background: rgba(22, 163, 74, 0.15);
-    color: #4ade80;
-    border: 1px solid rgba(34, 197, 94, 0.4);
-    align-self: flex-start;
   }
 
   .project h3 {
@@ -357,7 +401,7 @@
   @media (max-width: 640px) {
     .hero {
       padding-top: 3rem;
-      padding-bottom: 2.5rem;
+      padding-bottom: 1.5rem;
     }
 
     .section {
