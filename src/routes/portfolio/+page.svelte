@@ -17,6 +17,8 @@
     <h2>My Coding Projects</h2>
     <p>
       A curated selection of my coding projects. You can find all my projects on my <a href="https://github.com/DMFriends/portfolio" target="_blank" class="link">GitHub</a>.
+      <br>
+      If you encounter any issues or have any suggestions, please feel free to open an <a href="https://github.com/DMFriends/portfolio/issues" target="_blank" class="link">issue</a> or <a href="https://github.com/DMFriends/portfolio/pulls" target="_blank" class="link">PR</a>.
     </p>
   </div>
 
@@ -84,6 +86,20 @@
       </ul>
       <div class="card-footer">
         <a href="https://github.com/Cattn/JUno" target="_blank" class="link">Source code</a>
+      </div>
+    </article>
+
+    <article class="card project">
+      <h3>Personal Website</h3>
+      <p class="card-subtitle">
+        This website, built with SvelteKit and Tailwind CSS. If you encounter any issues or have any suggestions about my website specifically, please feel free to open an <a href="https://github.com/DMFriends/portfolio-site/issues" target="_blank" class="link">issue</a> or <a href="https://github.com/DMFriends/portfolio-site/pulls" target="_blank" class="link">PR</a>.
+      </p>
+      <ul class="pill-list">
+        <li>SvelteKit</li>
+        <li>Tailwind CSS</li>
+      </ul>
+      <div class="card-footer">
+        <a href="https://github.com/DMFriends/portfolio-site" target="_blank" class="link">Source code</a>
       </div>
     </article>
   </div>
