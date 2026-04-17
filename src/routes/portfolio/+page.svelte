@@ -16,9 +16,9 @@
   <div class="section-header">
     <h2>My Coding Projects</h2>
     <p>
-      A curated selection of my coding projects. You can find all my projects on my <a href="https://github.com/DMFriends/portfolio" target="_blank" class="link">GitHub</a>.
+      A curated selection of my coding projects. You can find all my projects on my <a href="https://github.com/DMFriends?tab=repositories" target="_blank" class="link">GitHub</a> or my <a href="https://github.com/DMFriends/portfolio" target="_blank" class="link">portfolio repository</a>.
       <br>
-      If you encounter any issues or have any suggestions, please feel free to open an <a href="https://github.com/DMFriends/portfolio/issues" target="_blank" class="link">issue</a> or <a href="https://github.com/DMFriends/portfolio/pulls" target="_blank" class="link">PR</a>.
+      If you encounter any issues with any of my projects or have any suggestions, please feel free to open an <a href="https://github.com/DMFriends/portfolio/issues" target="_blank" class="link">issue</a> or <a href="https://github.com/DMFriends/portfolio/pulls" target="_blank" class="link">PR</a>.
     </p>
   </div>
 
@@ -46,7 +46,7 @@
         <li>JavaFX</li>
       </ul>
       <div class="card-footer">
-        <a href="https://github.com/DMFriends/portfolio/tree/main/Java/Wordle" target="_blank" class="link">Source code</a>
+        <a href="https://github.com/DMFriends/wordle" target="_blank" class="link">Source code</a>
       </div>
     </article>
 
