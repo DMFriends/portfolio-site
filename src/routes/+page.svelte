@@ -56,6 +56,10 @@
 			</nav>
 		</div>
 
+		<div class="suggestions-feedback-container">
+			<p class="montserrat-regular">Suggestions? Feedback? Open an <a href="https://github.com/DMFriends/portfolio-site/issues" target="_blank" class="link">issue</a> or <a href="https://github.com/DMFriends/portfolio-site/pulls" target="_blank" class="link">PR</a>!</p>
+		</div>
+
 		<footer class="footer">
 			<span>© {new Date().getFullYear()} Daniel Miretsky. All rights reserved.</span>
 		</footer>
@@ -78,27 +82,33 @@
 		background: #ffffff;
 	}
 
-	/* .roboto-flex {
-        font-family: "Roboto Flex", sans-serif;
-        color: var(--color-primary);
-        font-optical-sizing: 144;
-        font-weight: 900;
-        font-style: normal;
-        font-variation-settings:
-            "slnt" 0,
-            "wdth" 129,
-            "GRAD" 0,
-            "XOPQ" 140,
-            "XTRA" 468,
-            "YOPQ" 51,
-            "YTAS" 750,
-            "YTDE" -203,
-            "YTFI" 738,
-            "YTLC" 514,
-            "YTUC" 712;
-    } */
+	.suggestions-feedback-container {
+		padding: 1.25rem 1.5rem 1.5rem;
+		text-align: center;
+		font-size: 0.8rem;
+		color: #0f172a;
+		font-family: "Montserrat", sans-serif;
+	}
 
+	.suggestions-feedback-container a {
+		color: #38bdf8;
+		position: relative;
+	}
 	
+	.suggestions-feedback-container a::after {
+		content: "";
+		position: absolute;
+		left: 0;
+		bottom: -0.1rem;
+		width: 0;
+		height: 1px;
+		background: #38bdf8;
+	}
+
+	.suggestions-feedback-container a:hover::after {
+		width: 100%;
+	}
+		
 	.montserrat-regular {
 		font-family: "Montserrat", sans-serif;
 		font-optical-sizing: auto;
