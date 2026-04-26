@@ -31,7 +31,7 @@
 		<div class="bottom-inner">
 			<div class="quick-buttons">
 				<a class="quick-button russo-one-regular" href="/portfolio">View Portfolio</a>
-				<a class="flex flex-column justify-center items-center quick-button russo-one-regular" href="https://docs.google.com/document/d/1bhVwWsPEovf2HFZMU3aLZC3aPFxYEFkTHlsXKnVAU3c/edit?tab=t.0" target="_blank">Resume</a>
+				<a class="flex flex-column justify-center items-center quick-button russo-one-regular" href="/resume.pdf" target="_blank" rel="noopener">Resume</a>
 			</div>
 
 			<nav class="flex flex-row justify-center items-center social" aria-label="Social links">
