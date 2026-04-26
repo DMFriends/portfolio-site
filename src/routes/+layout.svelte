@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-	<link rel="icon" href="/favicon.png" type="image/png" />
+	<link rel="icon" href="/avatar.png" type="image/png" />
 </svelte:head>
 
 {@render children()}
