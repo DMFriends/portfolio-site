@@ -169,9 +169,11 @@
 	}
 
 	.avatar-placeholder {
+		flex-shrink: 0;
 		width: 3.5rem;
 		height: 3.5rem;
-		border-radius: 999px;
+		aspect-ratio: 1;
+		border-radius: 50%;
 		overflow: hidden;
 		border: 2px solid rgba(148, 163, 184, 0.6);
 		box-shadow: 0 10px 25px rgba(15, 23, 42, 0.8);
@@ -181,7 +183,9 @@
 		width: 100%;
 		height: 100%;
 		object-fit: cover;
+		object-position: center 22%;
 		display: block;
+		border-radius: 50%;
 	}
 
 	@media (max-width: 640px) {
