@@ -92,7 +92,7 @@
     <article class="card project">
       <h3>Personal Website</h3>
       <p class="card-subtitle">
-        This website, built with SvelteKit and Tailwind CSS. If you encounter any issues or have any suggestions about my website specifically, please feel free to open an <a href="https://github.com/DMFriends/portfolio-site/issues" target="_blank" class="link">issue</a> or <a href="https://github.com/DMFriends/portfolio-site/pulls" target="_blank" class="link">PR</a>.
+        This website, built with SvelteKit and Tailwind CSS.
       </p>
       <ul class="pill-list">
         <li>SvelteKit</li>
