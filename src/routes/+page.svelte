@@ -57,7 +57,7 @@
 		</div>
 
 		<div class="suggestions-feedback-container">
-			<p class="montserrat-regular">Suggestions? Feedback? Open an <a href="https://github.com/DMFriends/portfolio-site/issues" target="_blank" class="link">issue</a> or <a href="https://github.com/DMFriends/portfolio-site/pulls" target="_blank" class="link">PR</a>!</p>
+			<p class="montserrat-regular">Suggestions? Feedback? Open an <a href="https://github.com/DMFriends/website/issues" target="_blank" class="link">issue</a> or <a href="https://github.com/DMFriends/website/pulls" target="_blank" class="link">PR</a>!</p>
 		</div>
 
 		<footer class="footer">
