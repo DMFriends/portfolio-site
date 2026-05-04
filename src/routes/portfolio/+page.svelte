@@ -16,9 +16,9 @@
   <div class="section-header">
     <h2>My Coding Projects</h2>
     <p>
-      A curated selection of my coding projects. You can find all my projects on my <a href="https://github.com/DMFriends?tab=repositories" target="_blank" class="link">GitHub</a> or my <a href="https://github.com/DMFriends/portfolio" target="_blank" class="link">portfolio repository</a>.
-      <br>
-      If you encounter any issues with any of my projects or have any suggestions, please feel free to open an <a href="https://github.com/DMFriends/portfolio/issues" target="_blank" class="link">issue</a> or <a href="https://github.com/DMFriends/portfolio/pulls" target="_blank" class="link">PR</a>.
+      A curated selection of my coding projects (in no particular order).
+      <br><br>
+      If you encounter any issues with any of my projects or have any suggestions, please feel free to submit an issue or pull request on the respective project's GitHub repository.
     </p>
   </div>
 
@@ -32,7 +32,7 @@
         <li>Java</li>
       </ul>
       <div class="card-footer">
-        <a href="https://github.com/DMFriends/portfolio/tree/main/Java/Durak" target="_blank" class="link">Source code</a>
+        <a href="https://github.com/DMFriends/durak" target="_blank" class="link">Source code</a>
       </div>
     </article>
 
@@ -57,9 +57,12 @@
       </p>
       <ul class="pill-list">
         <li>Java</li>
+        <li>C#</li>
+        <li>WinForms</li>
       </ul>
       <div class="card-footer">
-        <a href="https://github.com/DMFriends/portfolio/tree/main/Java/Mastermind" target="_blank" class="link">Source code</a>
+        <a href="https://github.com/DMFriends/mastermind" target="_blank" class="link">Java source code</a>
+        <a href="https://github.com/DMFriends/mastermind-gui" target="_blank" class="link">C# source code (WinForms)</a>
       </div>
     </article>
 
@@ -72,7 +75,7 @@
         <li>Java</li>
       </ul>
       <div class="card-footer">
-        <a href="https://github.com/DMFriends/portfolio/tree/main/Java/Battleship" target="_blank" class="link">Source code</a>
+        <a href="https://github.com/DMFriends/battleship" target="_blank" class="link">Source code</a>
       </div>
     </article>
 
@@ -100,6 +103,35 @@
       </ul>
       <div class="card-footer">
         <a href="https://github.com/DMFriends/portfolio-site" target="_blank" class="link">Source code</a>
+      </div>
+    </article>
+
+    <article class="card project">
+      <h3>Weather App</h3>
+      <p class="card-subtitle">
+        A weather mobile app that uses the OpenWeatherMap API to get the weather for a given location.
+      </p>
+      <ul class="pill-list">
+        <li>Svelte/SvelteKit</li>
+        <li>Vite</li>
+        <li>TypeScript</li>
+        <li>WeatherAPI</li>
+      </ul>
+      <div class="card-footer">
+        <a href="https://github.com/DMFriends/weather-app" target="_blank" class="link">Source code</a>
+      </div>
+    </article>
+
+    <article class="card project">
+      <h3>Madlibs</h3>
+      <p class="card-subtitle">
+        A Madlibs game that generates a story based on a template and a list of words.
+      </p>
+      <ul class="pill-list">
+        <li>Java</li>
+      </ul>
+      <div class="card-footer">
+        <a href="https://github.com/DMFriends/madlibs" target="_blank" class="link">Source code</a>
       </div>
     </article>
   </div>
