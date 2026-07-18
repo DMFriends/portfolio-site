@@ -123,12 +123,13 @@
     </article>
 
     <article class="card project">
-      <h3>Madlibs</h3>
+      <h3>MadLibs</h3>
       <p class="card-subtitle">
-        A Madlibs game that generates a story based on a template and a list of words.
+        A MadLibs game that generates a story based on a template and a list of words.
       </p>
       <ul class="pill-list">
         <li>Java</li>
+        <li>JavaFX</li>
       </ul>
       <div class="card-footer">
         <a href="https://github.com/DMFriends/madlibs" target="_blank" class="link">Source code</a>
