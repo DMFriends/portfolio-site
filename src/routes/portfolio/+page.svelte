@@ -80,15 +80,19 @@
     </article>
 
     <article class="card project">
-      <h3>JUno</h3>
+      <h3>Uno</h3>
       <p class="card-subtitle">
-        Java-based Uno game for mine and <a href="https://github.com/Cattn" target="_blank" class="link">@Cattn</a>'s CS2 Project at Wentworth Institute of Technology.
+        1. (JUno) Java-based Uno game for mine and <a href="https://github.com/Cattn" target="_blank" class="link">@Cattn</a>'s CS2 Project at Wentworth Institute of Technology.<br><br>
+        2. (Uno-GUI) A JavaFX version of JUno (written in collaboration with <a href="https://github.com/Boris098" target="_blank" class="link">@Boris098</a>).<br>
+        <strong style="color: #9ca3af;">Note: The JavaFX version is a work in progress and is not yet complete.</strong>
       </p>
       <ul class="pill-list">
         <li>Java</li>
+        <li>JavaFX</li>
       </ul>
       <div class="card-footer">
-        <a href="https://github.com/Cattn/JUno" target="_blank" class="link">Source code</a>
+        <a href="https://github.com/Cattn/JUno" target="_blank" class="link">JUno source code</a>
+        <a href="https://github.com/DMFriends/uno-gui" target="_blank" class="link">Uno-GUI source code</a>
       </div>
     </article>
 
