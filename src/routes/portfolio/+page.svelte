@@ -40,6 +40,8 @@
       <h3>Wordle</h3>
       <p class="card-subtitle">
         A word guessing game where you have to guess a word in 6 tries.
+
+        JavaFX version was written in collaboration with <a href="https://github.com/Boris098" target="_blank" class="link">@Boris098</a>.
       </p>
       <ul class="pill-list">
         <li>Java</li>
@@ -84,7 +86,6 @@
       <p class="card-subtitle">
         1. (JUno) Java-based Uno game for mine and <a href="https://github.com/Cattn" target="_blank" class="link">@Cattn</a>'s CS2 Project at Wentworth Institute of Technology.<br><br>
         2. (Uno-GUI) A JavaFX version of JUno (written in collaboration with <a href="https://github.com/Boris098" target="_blank" class="link">@Boris098</a>).<br>
-        <strong style="color: #9ca3af;">Note: The JavaFX version is a work in progress and is not yet complete.</strong>
       </p>
       <ul class="pill-list">
         <li>Java</li>
@@ -130,6 +131,8 @@
       <h3>MadLibs</h3>
       <p class="card-subtitle">
         A MadLibs game that generates a story based on a template and a list of words.
+
+        JavaFX version was written in collaboration with <a href="https://github.com/Boris098" target="_blank" class="link">@Boris098</a>.
       </p>
       <ul class="pill-list">
         <li>Java</li>
